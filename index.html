@@ -330,7 +330,7 @@
 
         <footer class="footer">
             <div class="container footer-container">
-                <div>
+                <div class="footer-container-adress">
                     <a href="" lang="en" class="footer-logo"><span class="footer-logo-web">Web</span>Studio</a>
                     <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
                     <ul class="footer-list">
@@ -376,13 +376,14 @@
                 </div>
                 
                    
-                        <form action="" class="form-subscribe">
+                        <form name="subscribe" class="form-subscribe">
+                            <h2 class="header-subcribe">Подпишитесь на рассылку</h2>
                             <div class="container-subscribe">
-                                <label for="subscribe" class="label-subscribe">Подпишитесь на рассылку</label>
+                                <label for="subscribe" class="label-subscribe"></label>
                                 <input class="subscribe-input" type="email" id="subscribe" name="subscribe" placeholder="E-mail">
                                 <button class="subscribe-button" type="submit">Подписаться
-                                    <svg width="24" height="24">
-                                        <use href="./images/icons.svg#telegram"></use>
+                                    <svg class="subscribe-icon" width="24" height="24">
+                                        <use class="subscribe-icon-use" href="./images/icons.svg#telegram"></use>
                                     </svg>
                                 </button>
                             </div>
@@ -397,13 +398,26 @@
 
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <p></p>
                     <button class="btn-close" data-modal-close>
                         <svg class="btn-icon" width="11" height="11">
                             <use href="./images/icons.svg#icon-close-black-18dp-2-1-2">
                             </use>
                         </svg>
                     </button>
+                    <h2>Оставьте свои данные мы вам перезвоним</h2>
+                    <form name="formular">
+                        <label for="name">Имя</label>
+                        <input type="text" name="username" id="name" autofocus>
+                        <br>
+                        <label for="phone">Телефон</label>
+                        <input type="tel" name="phone" id="phone">
+                        <br>
+                        <label for="email">Почта</label>
+                        <input type="email" name="email" id="email">
+                        <br>
+                        <label for="feedback">Комментарий</label>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                    </form>
                 </div>
             </div>
                         

@@ -569,6 +569,11 @@ background-color: var(--hero-footer-background-color);
 padding-top: 60px;
 padding-bottom: 60px;
 }
+
+.footer-container-adress {
+width: 231px;
+}
+
 .footer-logo {
 
 margin-bottom: 20px;
@@ -634,6 +639,7 @@ align-items: baseline;
 
 
 .container-soc {
+width: 206px;
 margin-left: 70px;
 }
 
@@ -675,13 +681,16 @@ fill: var(--header-background-color);
 }
 
 .container-subscribe {
-/* width: 570px; */
+display: flex;
+margin-top: 20px;
+
+height: 50px;
 margin-left: 93px;
 }
 
 .label-subscribe {
 display: flex;
-padding-bottom: 20px;
+
 
 font-weight: 700;
 font-size: 14px;
@@ -693,21 +702,25 @@ color: var(--header-background-color)
 
 .subscribe-input{
 
-
-margin: 0px;
-
+padding-left: 16px;
 width: 358px;
-height: 50px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 border: 1px solid rgba(255, 255, 255, 0.3);
-/* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
 border-radius: 4px;
 background-color: var(--hero-footer-background-color);
 
 }
 
 .subscribe-button {
-
-    padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0;
 margin-left: 12px;
 width: 200px;
 height: 50px;
@@ -720,6 +733,22 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 color: var(--header-background-color)
 }
+
+
+.header-subcribe {
+margin-left: 93px;
+
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--header-background-color);
+}
+.subscribe-icon {
+margin-left: 10px;
+}
+
+
 
 /*-------СТИЛІ СТОРІНКИ ПОРТФОЛІО------------*/
 
