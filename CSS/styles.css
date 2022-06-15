@@ -1099,7 +1099,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .email-icon {
 position: absolute;
-top: 252px;
+top: 253px;
 left: 53px;
 transition-property: fill;
 transition-duration: 250ms;
